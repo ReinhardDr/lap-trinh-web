@@ -5,7 +5,7 @@
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1040px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -19,7 +19,7 @@
 }
 
 header {
-    background-color: #6495ED;
+    background-color: rgb(34, 196, 255);
     padding: 10px 0 10px 0;
 }
 
@@ -76,6 +76,29 @@ ul.menu_child li {
 
 .menu ul li:hover ul.menu_child li {
     display: block;
+}
+
+.product_item {
+    float: left;
+    width:230px;
+    display:block;
+    text-align: center;
+    margin-right: 30px;
+    height: 270px;
+}
+img{
+    display: block;
+    width: 100%;
+}
+footer{
+    text-align: center;
+    background-color: rgb(34, 196, 255);
+    color: white;
+    padding: 50px 0 50px 0;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 /* Phần slide */
 /* .fade{
