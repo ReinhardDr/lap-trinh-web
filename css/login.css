@@ -70,3 +70,7 @@
   input#btn-login:hover{
     opacity: 0.75;
   }
+
+  a{
+  text-decoration: none;
+  }
